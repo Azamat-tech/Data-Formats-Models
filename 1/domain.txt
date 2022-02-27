@@ -1,7 +1,7 @@
 University
 Attributes:
 1. name - represent the university’s name. Data type: String.
-2. phoneNumber - represents the contact phone number of the university. Data type: String.
+2. phoneNumber[1..*] - represents one or more contact phone numbers of the university. Data type: String array.
 3. address - represents the address of the university. Data type: String.
 4. numberOfStudents - represent the number of students studying in university. Data type: Integer.
 Relations:
